@@ -8,7 +8,7 @@ function run() {
     var vasya = new Users("Вася");
     var petya = new Users("Петя");
 
-    vasya.hello(vasya);
+    vasya.hello(petya);
 
     log(db.getPhrase("RunOk"));
 }
